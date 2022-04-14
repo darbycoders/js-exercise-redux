@@ -5,6 +5,7 @@
 * [1.Basic](#basic)
 * [2.Redux](#redux)
 * [3.ReduxUseSelector](#reduxUseSelector)
+* [4.ReduxUseDispatch](#reduxUseDispatch)
 
 ## Basic
 
@@ -15,3 +16,7 @@
 ## ReduxUseSelector
 
 Redux store와 state에 접근
+
+## ReduxUseDispatch
+
+Redux dispatch에 접근
