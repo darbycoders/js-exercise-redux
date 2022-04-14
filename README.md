@@ -6,6 +6,7 @@
 * [2.Redux](#redux)
 * [3.ReduxUseSelector](#reduxUseSelector)
 * [4.ReduxUseDispatch](#reduxUseDispatch)
+* [5.ReduxMiddleware](#reduxMiddleware)
 
 ## Basic
 
@@ -20,3 +21,7 @@ Redux store와 state에 접근
 ## ReduxUseDispatch
 
 Redux dispatch에 접근
+
+## ReduxMiddleware
+
+리덕스 미들웨어는 액션과 스토어 사이에 임의의 기능을 넣어 확장하는 방법으로 추가적인 작업을 할 수 있습니다.<br> 액션을 콘솔에 출력하여 로깅을 할 수 있고 비동기 작업을 처리할 수도 있습니다. <br>이 두가지 경우를 직접 구현하면서 리덕스 미들웨어의 동작 원리를 알아봅니다.
